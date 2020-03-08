@@ -45,7 +45,9 @@ anchors = 10,14,  23,27,  37,58,  81,82,  135,169,  344,319
 - [ ] Train custom yolov3 object detector
 
 
-## Todo - Build the project
+## Todo - Build the project for windows
 
-- Tried various methods. Easiest is to simply download opencv frol sourceforge. Extract into single folder with name "opencv" inside "opencv_3.0" folder
+- Tried various methods. Easiest is to simply download opencv frol sourceforge. Extract into single folder with name "opencv" inside "opencv_3.0" folder. Build x64,release. Try `darknet_no_gpu.exe detect cfg/yolov3.cfg yolov3.weights data/eagledarknet_no_gpu.exe detect cfg/yolov3.cfg yolov3.weights data/eagle`
+
 - Then open yolo-no-gpu with visual studio 15. Set: Release and x64 IS. Click second build tolo-no-gpu . Pray that it builds.
+- finally something is working. Don't give up.
