@@ -42,9 +42,10 @@ mask = 3,4,5
 anchors = 9, 55,  23,127,  70,136,  48,268, 110,316, 279,304
 ```
 Note: The -cluster is number of pairs, tiny yolo has 6. It can change
-- run `darknet_no_gpu.exe partial cfg/yolov3-tiny.cfg yolov3-tiny.weights yolov3-tiny.conv.15 15 `
+
 
 - [x] Train custom yolov3 object detector
+ - run `darknet_no_gpu.exe partial cfg/yolov3-tiny.cfg yolov3-tiny.weights yolov3-tiny.conv.15 15 `
  - `darknet_no_gpu.exe detector train data/obj.data yolov3-tiny-obj.cfg yolov3-tiny.conv.15 -dont_show`
 
 
