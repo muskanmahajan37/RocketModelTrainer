@@ -39,7 +39,7 @@ activation=linear
 ```
 [yolo]
 mask = 3,4,5
-anchors = 10,14,  23,27,  37,58,  81,82,  135,169,  344,319
+anchors = 9, 55,  23,127,  70,136,  48,268, 110,316, 279,304
 ```
 . Note: The -cluster is number of pairs, tiny yolo has 6. It can change
 - [ ] Train custom yolov3 object detector
